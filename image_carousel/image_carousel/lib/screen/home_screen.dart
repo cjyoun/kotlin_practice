@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
             .map(
               (e) => Image.asset(
                 "asset/img/image_$e.jpg",
+                fit: BoxFit.cover,
               ),
             )
             .toList(),
