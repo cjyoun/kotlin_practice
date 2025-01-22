@@ -62,6 +62,24 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
+  assets:
+    - asset/img/
+
+
+# 등록하고 싶은 폰트들을 등록하고 family로 그룹을 짓고 굵기에 따라 weight를 줌
+  fonts:
+    - family: parisienne
+      fonts:
+        - asset: asset/font/Parisienne-Regular.ttf
+
+    - family: sunflower
+      fonts:
+          - asset: asset/font/Sunflower-Light.ttf
+          - asset: asset/font/Sunflower-Medium.ttf
+            weight: 500
+          - asset: asset/font/Sunflower-Bold.ttf
+            weight: 700
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
